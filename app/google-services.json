@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "454124814605",
+    "firebase_url": "https://triton-manage-your-socie-2704d.firebaseio.com",
+    "project_id": "triton-manage-your-socie-2704d",
+    "storage_bucket": "triton-manage-your-socie-2704d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454124814605:android:4333688672445c1c593044",
+        "android_client_info": {
+          "package_name": "com.wefour.triton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454124814605-nsuhug5itjkauf4j76tpq99hun6ms17r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wefour.triton",
+            "certificate_hash": "9f4b1ce8fb335850e9696e9887b1f93ce5f7ed8a"
+          }
+        },
+        {
+          "client_id": "454124814605-mqdp53ehaltm3es23vr3c65evdgterhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhbC6K0KZUlGbMZfLDLKWHCagsCC_8r0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454124814605-mqdp53ehaltm3es23vr3c65evdgterhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

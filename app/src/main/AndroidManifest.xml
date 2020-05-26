@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.wefour.triton">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/home"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/home"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".demoweb"></activity>
+        <activity android:name=".aboutus" />
+        <activity android:name=".parking" />
+        <activity android:name=".vendordetail" />
+        <activity android:name=".vendor" />
+        <activity android:name=".adminvisitordetail" />
+        <activity android:name=".notification" />
+        <activity android:name=".adminnotify" />
+        <activity android:name=".visitor" />
+        <activity
+            android:name=".redirect"
+            android:exported="true" />
+        <activity android:name=".admincomplaint" />
+        <activity android:name=".adminevent" />
+        <activity android:name=".adminhome" />
+        <activity android:name=".complaint" />
+        <activity
+            android:name=".event"
+            android:exported="true" />
+        <activity
+            android:name=".contact"
+            android:exported="true" />
+        <activity android:name=".home" />
+        <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
